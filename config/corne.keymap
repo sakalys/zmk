@@ -121,6 +121,13 @@
             bindings = <&kp ESC>;
             key-positions = <15 16>;
         };
+
+        shift-hold {
+            bindings = <&kp LSHFT>;
+            key-positions = <12 24>;
+            layers = <0>;
+            timeout-ms = <50>;
+        };
     };
 
     macros {
